@@ -1,6 +1,6 @@
 /**
-  Problem statement: given input array 'nums', find set of triplets
-  such that for each triple t = (a, b, c), sum(t) = 0.
+  Problem statement: given input array 'nums', find set of triplets in 'nums'
+  such that for each triple t = {a, b, c}, sum(t) = 0.
  */
 
 public class Solution {

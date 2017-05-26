@@ -10,7 +10,7 @@ public class Problem1 {
     for (int i = 0; i < s.length(); ++i) {
       int dif = s.charAt(i) - 'a';
       
-      if ((vector & (1 << dif) > 0)) return false;
+      if ((vector & (1 << dif)) > 0) return false;
       
       vector |= (1 << dif);
     }
